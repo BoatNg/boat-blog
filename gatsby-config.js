@@ -1,22 +1,20 @@
 module.exports = {
   siteMetadata: {
-    title: `Dennis Morello`,
-    author: `Dennis Morello`,
-    email: `dennismorello@gmail.com`,
-    description: `A dev blog by Dennis Morello.`,
-    siteUrl: `https://morello.dev`,
-    siteDomain: `morello.dev`,
+    title: `一艘小破船`,
+    author: `Boat Ng`,
+    email: `wubo_w3@qq.com`,
+    description: `人生海海，这里只是一艘小破船`,
+    siteUrl: `https://boatng.top`,
+    siteDomain: `Boat Ng`,
     language: `en`,
-    disqusShortname: `morello-dev`,
+    disqusShortname: `boatng.top`,
     social: {
-      instagram: `dennismrl`,
-      linkedin: `dennismorello`,
-      twitter: `dennismorello`,
-      github: `dennismorello`
+      instagram: `_boatng`,
+      linkedin: `boat_ng`,
+      twitter: `_BoatNg`,
+      github: `boat_ng`
     },
     keywords: [
-      `dennis`,
-      `morello`,
       `blog`,
       `gatsby`,
       `javascript`,

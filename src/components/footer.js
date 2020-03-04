@@ -58,7 +58,7 @@ const Footer = props => {
               </LevelLeft>
               <LevelRight className="is-inline-flex-mobile">
                 <LevelItem>
-                  <Columns isMobile>
+                  {/* <Columns isMobile>
                     <Column>
                       <Button
                         isInverted={theme === 'light'}
@@ -117,20 +117,21 @@ const Footer = props => {
                         <Icon className="fas fa-rss fa-lg" />
                       </Button>
                     </Column>
-                  </Columns>
+                  </Columns> */}
+                
                 </LevelItem>
               </LevelRight>
             </Level>
             <Level>
               <LevelItem hasTextAlign="centered">
-                <Button
+                {/* <Button
                   href="https://ko-fi.com/O4O2RDTK"
                   target="_blank"
                   rel="noopener noreferrer"
                   isColor="warning"
                 >
                   Buy Me a Coffee
-                </Button>
+                </Button> */}
               </LevelItem>
             </Level>
           </Container>
