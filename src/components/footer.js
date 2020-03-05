@@ -58,8 +58,8 @@ const Footer = props => {
               </LevelLeft>
               <LevelRight className="is-inline-flex-mobile">
                 <LevelItem>
-                  {/* <Columns isMobile>
-                    <Column>
+                  <Columns isMobile>
+                    {/* <Column>
                       <Button
                         isInverted={theme === 'light'}
                         isColor="info"
@@ -72,7 +72,7 @@ const Footer = props => {
                       >
                         <Icon className="fab fa-twitter fa-lg" />
                       </Button>
-                    </Column>
+                    </Column> */}
                     <Column>
                       <Button
                         isInverted={theme === 'light'}
@@ -101,7 +101,7 @@ const Footer = props => {
                         rel="noopener noreferrer"
                         title="LinkedIn"
                       >
-                        <Icon className="fab fa-linkedin fa-lg" />
+                        <Icon className="fab fa-weixin fa-lg" />
                       </Button>
                     </Column>
                     <Column>
@@ -117,7 +117,7 @@ const Footer = props => {
                         <Icon className="fas fa-rss fa-lg" />
                       </Button>
                     </Column>
-                  </Columns> */}
+                  </Columns>
                 
                 </LevelItem>
               </LevelRight>

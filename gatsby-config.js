@@ -9,7 +9,7 @@ module.exports = {
     language: `en`,
     disqusShortname: `boatng.top`,
     social: {
-      instagram: `_boatng`,
+      instagram: `boatng_`,
       linkedin: `boat_ng`,
       twitter: `_BoatNg`,
       github: `boat_ng`

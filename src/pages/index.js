@@ -43,7 +43,7 @@ const BlogIndex = props => {
                 <Title>{siteDomain}</Title>
                 <Subtitle>
                   <Typist startDelay={1000}>
-                    A blog about web technologies and other stuff{' '}
+                    A blog about computer technology and other stuff{' '}
                     <span role="img" aria-label="jsx-a11y/accessible-emoji">
                       💻
                     </span>

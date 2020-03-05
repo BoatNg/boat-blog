@@ -8,7 +8,7 @@ import {
   Content,
   Hero,
   HeroBody,
-  Level,
+  LevelLeft,
   LevelItem,
   Title,
   Subtitle
@@ -39,12 +39,13 @@ const About = props => {
             <Fade left>
               <React.Fragment>
                 <Title>{siteTitle}</Title>
+                <br />
                 <Subtitle>
-                  <Typist startDelay={1000}>
-                    A front-end engineer from Milan{' '}
+                  <Typist startDelay={1000} >
+                    <span style={{letterSpacing: '1em'}}>尘世间,一迷途小书童</span>
                     <span role="img" aria-label="jsx-a11y/accessible-emoji">
-                      🇮🇹
-                    </span>
+                      🌏
+                      </span>
                   </Typist>
                 </Subtitle>
               </React.Fragment>
@@ -66,7 +67,7 @@ const About = props => {
                     </Title>
                     <Content>
                       <p>
-                        I am a front-end engineer based in Milan. I love writing
+                        I am a front-end engineer based in China. I love writing
                         code, learning new things and exploring the world around
                         me.
                       </p>
@@ -91,36 +92,17 @@ const About = props => {
                         </a>{' '}
                         as the static site generator and{' '}
                         <a
-                          href="https://bulma.io"
+                          href="https://bloomer.js.org/"
                           target="_blank"
                           rel="noopener noreferrer"
                           title="Bulma"
                         >
-                          Bulma
+                          bloomer
                         </a>{' '}
                         as the CSS library.
                       </p>
-                      <hr />
-                      <p>
-                        Have a look at my resume (<i>coming soon</i>) or contact
-                        me!
-                      </p>
                     </Content>
-                    <Level isMobile>
-                      <LevelItem>
-                        <Button disabled>Resume</Button>
-                      </LevelItem>
-                      <LevelItem>
-                        <Button
-                          isColor="info"
-                          href="https://t.me/dennismrl"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          title="Telegram"
-                        >
-                          Telegram
-                        </Button>
-                      </LevelItem>
+                    <LevelLeft isMobile>
                       <LevelItem>
                         <Button
                           isColor={getOppositeTheme(theme)}
@@ -132,7 +114,7 @@ const About = props => {
                           E-mail
                         </Button>
                       </LevelItem>
-                    </Level>
+                    </LevelLeft>
                   </React.Fragment>
                 </Fade>
               </Column>
